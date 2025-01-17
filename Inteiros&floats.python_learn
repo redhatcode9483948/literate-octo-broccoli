@@ -1,0 +1,11 @@
+#inteiros e floats
+peso = 0.0
+idade = 0
+
+#solicita o peso e a idade do usuário
+
+peso = float(input("Digite o seu peso aqui:"))
+idade = int(input("Digite a sua idade aqui, por favor: "))
+
+#exibir dados insiridos
+print(f"peso: {peso}, idade: {idade}")
