@@ -1,0 +1,12 @@
+# literate-octo-broccoli
+class pessoa:
+
+    def __init__(self, nome, idade):
+        self.nome = "AVI"
+        self.idade = 0
+
+    def apresentar(self):
+        return f"Olá, meu nome é {self.nome} e tenho {self.idade} anos \n como posso te ajudar hoje ?"
+
+pessoa = pessoa("nome", "idade")
+print(pessoa.apresentar())
